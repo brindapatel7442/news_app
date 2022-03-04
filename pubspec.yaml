@@ -1,0 +1,49 @@
+name: news_app
+description: A new Flutter project.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.16.0-159.0.dev <3.0.0"
+
+dependencies:
+  bloc_concurrency: ^0.2.0
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  flutter_bloc:
+  http:
+  progress_dialog: ^1.1.0+1
+  connectivity:
+  equatable: ^2.0.3
+  stream_transform: ^2.0.0
+  cached_network_image:
+  intl:
+  sqflite:
+  path_provider:
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^1.0.0
+
+flutter:
+  uses-material-design: true
+
+  fonts:
+    - family: RobotoSlab-Bold
+      fonts:
+        - asset: assets/fonts/RobotoSlab-Bold.ttf
+    - family: RobotoSlab
+      fonts:
+        - asset: assets/fonts/RobotoSlab-Regular.ttf
+    - family: RobotoSlab-Light
+      fonts:
+        - asset: assets/fonts/RobotoSlab-Light.ttf
+
+
+  assets:
+    - assets/
